@@ -4,7 +4,9 @@ Train a Neural Network using slippi game files to create an AI that plays just l
 ## Training
 Using the py-slippi module to read .slp files, like gamestate and player information
 
-User input and game state is sent to LSTM to predict the next optimal move
+User input and game state is sent to LSTM to predict the next optimal move(s)
+
+
 ## Apply 
 Use lib-melee to allow trained AI to interact with game
 
@@ -13,7 +15,9 @@ Processed important gamedata frame by frame into a usable data array
 
 ## TO DO
 Ensure data simularity between py-slippi and lib-melee
+
 Train model
+
 Allow model to interact with game live
  
 # Resources
